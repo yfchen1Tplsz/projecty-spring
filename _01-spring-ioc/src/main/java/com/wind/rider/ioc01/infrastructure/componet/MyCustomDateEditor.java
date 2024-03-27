@@ -9,6 +9,9 @@ public class MyCustomDateEditor extends PropertyEditorSupport {
 
     private String dateFormatPattern; // 日期格式化模式
 
+    public MyCustomDateEditor() {
+    }
+
     public MyCustomDateEditor(String dateFormatPattern) {
         this.dateFormatPattern = dateFormatPattern;
     }
