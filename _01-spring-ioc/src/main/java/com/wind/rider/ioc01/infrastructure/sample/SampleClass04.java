@@ -1,6 +1,6 @@
 package com.wind.rider.ioc01.infrastructure.sample;
 
-import com.wind.rider.ioc01.Order01_DefaultListableBeanFactoryInterface;
+import com.wind.rider.ioc01.DefaultListableBeanFactoryInterface;
 import com.wind.rider.ioc01.infrastructure.annotation.MyFlag;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -8,7 +8,7 @@ import org.slf4j.LoggerFactory;
 
 @MyFlag(value = "123-type")
 public class SampleClass04 implements SampleInterface {
-    private static Logger log = LoggerFactory.getLogger(Order01_DefaultListableBeanFactoryInterface.class);
+    private static Logger log = LoggerFactory.getLogger(DefaultListableBeanFactoryInterface.class);
 
     @MyFlag(value = "message-field")
     private String message;

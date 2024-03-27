@@ -41,8 +41,8 @@ import java.util.Set;
  * @date 2024/3/26
  * @apiNote 用于展示DefaultListableBeanFactory所继承而来的接口能力 --Ioc核心容器接口之BeanFactory类族
  */
-public class Order01_DefaultListableBeanFactoryInterface {
-    private static Logger log = LoggerFactory.getLogger(Order01_DefaultListableBeanFactoryInterface.class);
+public class DefaultListableBeanFactoryInterface {
+    private static Logger log = LoggerFactory.getLogger(DefaultListableBeanFactoryInterface.class);
 
     public static void main(String[] args) throws NoSuchMethodException {
         /* 0. ctrl + alt + U 快速查看类图 */
