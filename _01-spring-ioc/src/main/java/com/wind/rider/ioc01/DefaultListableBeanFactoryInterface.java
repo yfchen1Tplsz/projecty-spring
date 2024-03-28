@@ -295,8 +295,6 @@ public class DefaultListableBeanFactoryInterface {
             //   configurableBeanFactory.destroyScopedBean("sampleClass03");
             //8.37 ConfigurableBeanFactory接口方法之三十七： 销毁所有单例Bean
             configurableBeanFactory.destroySingletons();
-
-
         }
 
     }

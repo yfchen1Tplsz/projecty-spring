@@ -10,7 +10,7 @@
 
 ##### 一、Spring之Ioc容器：
 
-- DefaultListableBeanFactory的底层接口能力
+- DefaultListableBeanFactory的底层接口能力 √
 - BeanFactory与ApplicationContext关系
 - 常见的BeanFactoryPostProcessor与BeanPostProcessor
 - ApplicationContext的一些实现
